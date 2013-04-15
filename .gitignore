@@ -1,7 +1,7 @@
 MANIFEST
 
 bin/*
-!bin/itunes.py
+!bin/clitunes
 
 include/*
 build/*
