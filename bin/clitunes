@@ -12,7 +12,16 @@ except KeyError:
     default_command = 'playpause'
 
 # Mapping of custom commands
-commands = {}
+commands = {
+    'next': 'to next track',
+    'skip': 'to next track',
+
+    'previous': 'to previous track',
+    'prev': 'to previous track',
+
+    'ff': 'to fast forward',
+    'rw': 'to rewind'
+}
 
 # Base command for sending signals to iTunes
 base_command = "osascript -e 'tell application \"iTunes\" {0}'"
