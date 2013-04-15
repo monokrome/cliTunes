@@ -36,6 +36,8 @@ metadata = {
     'long_description': metafiles['README.md'] + '\n\n' + metafiles['CHANGES.md'],
 
     'packages': [],
+    'scripts': ['bin/clitunes'],
+
     'install_requires': dependencies
 }
 
