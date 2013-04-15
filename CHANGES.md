@@ -1,6 +1,8 @@
 0.0.3
 -----
 
+- Converted clitunes to a package.
+- Broke command translation / execution out into Translation objects.
 - Migrated cliTunes to a module.
 
 0.0.2
