@@ -10,12 +10,12 @@ try:
 except KeyError:
     default_command = 'playpause'
 
-translator = iTunesTranslator()
-
 if len(sys.argv) > 1:
     command_name = ' '.join(sys.argv[1:]).lower()
 else:
     command_name = default_command
+
+translator = iTunesTranslator()
 
 command = translator.parse(command_name)
 sys.exit(translator.execute(command))
