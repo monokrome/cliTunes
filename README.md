@@ -1,4 +1,4 @@
-iTunes.py
+cliTunes
 =========
 
 For now, this is just a command-line interface to Python. It's pretty
@@ -13,6 +13,6 @@ Usage
 
 Put itunes.py somewhere in your path. Now, you can do things like this:
 
-    itunes.py play
-    itunes.py pause
+    clitunes play
+    clitunes pause
 
