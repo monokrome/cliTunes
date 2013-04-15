@@ -11,7 +11,7 @@ I will worry about some other time.
 Usage
 -----
 
-Put itunes.py somewhere in your path. Now, you can do things like this:
+Put bin/clitunes somewhere in your path. Now, you can do things like this:
 
     clitunes play
     clitunes pause
