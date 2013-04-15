@@ -4,6 +4,8 @@ bin/*
 include/*
 lib/*
 
+*.pyc
+
 .*
 !.git*
 
