@@ -1,3 +1,8 @@
+0.0.3
+-----
+
+- Migrated cliTunes to a module.
+
 0.0.2
 -----
 
