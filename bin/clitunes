@@ -55,7 +55,7 @@ if return_code != 0:
     if unknown_command in error:
         print('{0} is an unsupported command.'.format(command_name), file=sys.stderr)
     else:
-        print(unknown_error, file=sys.stderr)
+        print(unknown_error.format(error), file=sys.stderr)
 
 sys.exit(return_code)
 
