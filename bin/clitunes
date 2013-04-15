@@ -9,7 +9,7 @@ import subprocess, shlex
 try:
     default_command = os.environ['ITUNESPY_DEFAULT_COMMAND']
 except KeyError:
-    default_command = 'play'
+    default_command = 'playpause'
 
 # Mapping of custom commands
 commands = {}
