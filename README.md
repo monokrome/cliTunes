@@ -36,3 +36,9 @@ Running clitunes without any options will assume that you want to use the
 "playpause" command. This will play unless already playing, at which time
 it will pause instead.
 
+TODO
+----
+
+- Figure out how to be smarter about stringifying things. Passing strings to
+  iTunes shouldn't require a user to escape every quote manually.
+
