@@ -15,4 +15,5 @@ Put itunes.py somewhere in your path. Now, you can do things like this:
 
     clitunes play
     clitunes pause
+    clitunes stop
 
