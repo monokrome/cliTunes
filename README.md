@@ -15,7 +15,8 @@ To install, simply use **pip** or **easy_install**:
 Usage
 -----
 
-Put bin/clitunes somewhere in your path. Now, you can handle playback like this:
+Put bin/clitunes somewhere in your path. Now, you can handle playback like
+this:
 
     clitunes play
     clitunes pause
@@ -30,4 +31,8 @@ You can also navigate files like this:
 or perform a lot of other useful actions:
 
     clitunes subscribe http://example.com/podcast.xml
+
+Running clitunes without any options will assume that you want to use the
+"playpause" command. This will play unless already playing, at which time
+it will pause instead.
 
