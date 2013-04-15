@@ -21,7 +21,7 @@ unknown_command_error = 'The variable {0} is not defined.'
 unknown_error = "An unexpected iTunes error occured. Details are as follows:\n{0}"
 
 if len(sys.argv) > 1:
-    command_name = sys.argv[1].lower()
+    command_name = ' '.join(sys.argv[1:]).lower()
 else:
     command_name = default_command
 
