@@ -35,7 +35,7 @@ metadata = {
     'classifiers': metafiles['CLASSIFIERS.txt'],
     'long_description': metafiles['README.md'] + '\n\n' + metafiles['CHANGES.md'],
 
-    'packages': [],
+    'packages': ['clitunes'],
     'scripts': ['bin/clitunes'],
 
     'install_requires': dependencies
