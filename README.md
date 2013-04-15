@@ -30,7 +30,7 @@ You can also navigate files like this:
 
 or perform a lot of other useful actions:
 
-    clitunes subscribe http://example.com/podcast.xml
+    clitunes subscribe \"http://example.com/podcast.xml\"
 
 Running clitunes without any options will assume that you want to use the
 "playpause" command. This will play unless already playing, at which time
