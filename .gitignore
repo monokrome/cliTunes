@@ -2,6 +2,7 @@ bin/*
 !bin/itunes.py
 
 include/*
+build/*
 lib/*
 
 *.pyc
