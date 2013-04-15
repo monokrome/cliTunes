@@ -15,9 +15,19 @@ To install, simply use **pip** or **easy_install**:
 Usage
 -----
 
-Put bin/clitunes somewhere in your path. Now, you can do things like this:
+Put bin/clitunes somewhere in your path. Now, you can handle playback like this:
 
     clitunes play
     clitunes pause
     clitunes stop
+
+You can also navigate files like this:
+
+    clitunes rewind
+    clitunes fast forward
+    clitunes resume
+
+or perform a lot of other useful actions:
+
+    clitunes subscribe http://example.com/podcast.xml
 
