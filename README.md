@@ -21,6 +21,7 @@ this:
     clitunes play
     clitunes pause
     clitunes stop
+    clitunes rate 4.5
 
 You can also navigate files like this:
 
@@ -34,7 +35,9 @@ or perform a lot of other useful actions:
 
 Running clitunes without any options will assume that you want to use the
 "playpause" command. This will play unless already playing, at which time
-it will pause instead.
+it will pause instead. If you prefer a different default behavior, then
+you can define the default command with the `CLITUNES_DEFAULT_COMMAND`
+environment variable.
 
 TODO
 ----
