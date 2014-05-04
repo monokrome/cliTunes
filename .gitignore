@@ -8,6 +8,8 @@ build/*
 dist/*
 lib/*
 
+*.egg-info
+
 *.pyc
 
 .*
