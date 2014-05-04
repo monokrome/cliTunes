@@ -30,7 +30,7 @@ dependencies = []
 
 metadata = {
     'name': 'cliTunes',
-    'version': '0.0.2',
+    'version': '0.0.3',
 
     'author': 'Brandon R. Stoner',
     'author_email': 'monokrome@monokro.me',
